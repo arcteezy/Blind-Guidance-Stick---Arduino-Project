@@ -1,0 +1,15 @@
+Program Algorithm :
+
+STEP 1. Start
+STEP 2. Setup trigger pin and echo pin for the ultrasonic sensor
+STEP 3. Initialise duration and distance
+STEP 4. Set trigger pin as input
+STEP 5. Set pins for the buzzer and vibrator and echo pin as output
+STEP 6. Inside a loop, set trigger pin and echo pin as high
+STEP 7. Calculating distance using, distance= duration* 0.034/2
+STEP 8. If distance is less than 25 vibrator will vibrates and buzzer make beep sound
+STEP 9. If distance is less than 50 vibrator will vibrates and buzzer will make sound.
+STEP 10. If distance is less than 75 vibrator will vibrates intensively
+STEP 11. If distance is less than 100 vibrator will vibrates very intensively.
+STEP 12. If the distance is greater than 100 vibrator and buzzer will be off.
+STEP 13. Stop.
